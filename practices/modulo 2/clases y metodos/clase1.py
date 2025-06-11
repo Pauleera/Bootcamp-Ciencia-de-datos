@@ -2,9 +2,9 @@
 
 class Estudiante:
 
-    def __init__(self, nombre, matriculado):
+    def __init__(self, nombre, matricula):
         self.nombre = nombre
-        self.matricula = matriculado
+        self.matricula = matricula
 
     def presentarse(self):
         return f"Hola {self.nombre} !"
